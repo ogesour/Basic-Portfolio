@@ -1,0 +1,59 @@
+body{
+    /* background-color: #ffffff; */
+    background-image: url('/images/dark-triangles')
+    
+}
+
+.name{
+    float: left;
+    margin-left:  8%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+
+    overflow: hidden;
+    background-color: #4aaaa5;
+    color: white;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 8%;
+    margin-top: 0;
+    padding-top: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+li{
+    display: inline;
+    float: right;
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+h2{
+    clear: both;
+    border-bottom: 1px solid darkgray;
+}
+
+img{
+    float: left;
+}
+
+#main{
+    width: 960px;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+p{
+    margin-left: 5px;
+}
