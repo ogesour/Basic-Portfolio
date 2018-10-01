@@ -55,8 +55,9 @@ a{
 h2{
     clear: both;
     border-bottom: 1px solid darkgray;
-    color: #4c4a4a;
+    color: black;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 img{
@@ -70,7 +71,7 @@ img{
     margin-left: 8%;
     margin-right: 8%;
     background: white;
-    height: 400px;
+    height: 410px;
 }
 p{
     margin-left: 10px;
@@ -78,4 +79,16 @@ p{
 
 .proj{
     margin-left: 10%;
+}
+
+form{
+    margin-left: 5%;
+}
+input{
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+textarea{
+    width: 50%;
 }
