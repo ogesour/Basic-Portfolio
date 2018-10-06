@@ -1,6 +1,6 @@
 body{
-    /* background-color: #ffffff; */
-    background-image: url('../images/dark-triangles.png')
+    background-image: url('../images/dark-triangles.png');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
 }
 
@@ -28,11 +28,13 @@ ul{
 li{
     display: inline;
     float: right;
+
 }
 
 header{
     border-bottom: 2px solid black;
     background: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .btn{
     margin-left: 10px;
@@ -96,10 +98,13 @@ textarea{
     width: 50%;
 }
 
+.submit{
+    width: 15%;
+    background-color: black;
+    color: white;
+}
 
-/* WHAT HAS BEEN INPUTED TODAY */
-
-
+/* Portfolio */
 .column{
     float: left;
     width: 200px;
@@ -125,36 +130,43 @@ textarea{
     font-size: 10px;
  }
 
+
+ /* Banners over images. I still need help on finding a easier way to add the banners */
+
  .test{
-    right: 69.5%;
-    left: 14.5%;
-    bottom: 50%;
+    right: 891px;
+    left: 186px;
+    bottom: 41%;
     text-align: center;
     opacity: .7;
-    color: white;
+    color: black;
     position: absolute;
-    background-color: red;
+    background-color: #eaeef2;
+    padding: 20px;
     
  }
  .test1{
-    right: 69.5%;
-    left: 14.5%;
-    bottom: 50%;
+    right: 159px;
+    bottom: 41%;
     text-align: center;
     opacity: .7;
-    color: white;
+    color: black;
     position: absolute;
-    background-color: red;
+    background-color: #eaeef2;
+    padding: 20px;
+    width: 161px;
+    left: 465px;
     
  }
  .test2{
-    right: 69.5%;
-    left: 14.5%;
-    bottom: 50%;
+    right: 337px;
+    left: 741px;
+    bottom: 40%;
     text-align: center;
     opacity: .7;
-    color: white;
+    color: black;
     position: absolute;
-    background-color: red;
+    background-color: #eaeef2;
+    padding: 20px;
     
  }
